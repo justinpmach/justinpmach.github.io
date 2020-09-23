@@ -658,7 +658,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #15b100;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -691,6 +691,7 @@ a:hover {
 } */
 
 .skill-mf span {
+  font-size: 1.1rem;
   color: #e0e0e0;
 }
 
@@ -703,7 +704,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #00b45a;
+  background-color: #15b100;
 }
 
 /*======================================
