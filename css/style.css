@@ -93,7 +93,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #002e0b;
 }
 
 .overlay-mf {
@@ -128,8 +128,8 @@ a:hover {
   padding: 4rem 0;
 }
 
-.sect-pt4 {
-  padding-top: 4rem;
+.sect-pt2 {
+  padding-top: 2rem;
 }
 
 .sect-mt4 {
@@ -159,6 +159,7 @@ a:hover {
 
 .subtitle-a {
   color: #ffffff;
+  font-size: 1.2rem;
 }
 
 .line-mf {
@@ -221,12 +222,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px  #15b100;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color:  #15b100;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -251,7 +252,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #15b100;
   margin-right: 10px;
 }
 
@@ -265,7 +266,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px  #15b100;
   display: block;
 }
 
@@ -710,7 +711,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: rgb(34, 34, 34);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -719,18 +720,19 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #15b100;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
+  /* background-color:  #15b100; */
 }
 
 .service-box .s-title {
@@ -738,10 +740,12 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: rgb(0, 158, 0);
+  font-weight: bold;
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 /*======================================
@@ -777,7 +781,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: rgb(34, 34, 34);
 }
 
 .work-box:hover img {
@@ -786,6 +790,8 @@ a:hover {
 }
 
 .work-img {
+  width: 100%;
+  height: 18rem;
   display: block;
   overflow: hidden;
 }
@@ -799,22 +805,22 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #ffffff;
   font-size: .8rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #15b100;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #15b100;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color:#15b100;
 }
 
 .work-content .w-like .num-like {
@@ -823,6 +829,8 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  color: #fff;
+  /* color: rgb(0, 158, 0); */
 }
 
 /*======================================
