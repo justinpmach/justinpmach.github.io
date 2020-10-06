@@ -213,15 +213,17 @@ a:hover {
 
 .socials ul li {
   display: inline-block;
+  padding-left: 0.8rem;
 }
 
 .socials .ico-circle {
   height: 40px;
   width: 40px;
+  color: #d1d1d1;
   font-size: 1.7rem;
   border-radius: 50%;
-  line-height: 1.4;
-  margin: 0 15px 0 0;
+  line-height: 1.7;
+  /* margin: 0 15px 0 0; */
   box-shadow: 0 0 0 3px  #15b100;
   transition: all 500ms ease;
 }
@@ -229,7 +231,6 @@ a:hover {
 .socials .ico-circle:hover {
   background-color:  #15b100;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
 
@@ -292,9 +293,9 @@ a:hover {
   cursor: pointer;
 }
 
-.owl-theme .owl-dots .owl-dot:hover span {
+/* .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #cde1f8;
-}
+} */
 
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: #1B1B1B;
@@ -875,7 +876,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color:#15b100;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -908,7 +909,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #15b100;
   border-radius: 4px;
 }
 
@@ -962,7 +963,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid#15b100;
   margin-top: 1rem;
 }
 
@@ -972,7 +973,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #15b100;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -980,7 +981,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #15b100;
   padding: 18px;
   font-style: italic;
 }
@@ -1012,7 +1013,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #15b100;
 }
 
 .box-comments .list-comments span {
@@ -1029,7 +1030,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #15b100;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1046,7 +1047,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #15b100;
   top: 20px;
 }
 
@@ -1057,8 +1058,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color:#15b100;
+  border-color: #15b100;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1066,7 +1067,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color:#15b100;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1115,8 +1116,8 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
+  color: #15b100
+  border: 1px solid #15b100;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1173,13 +1174,13 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #00691b;
+  background-color:#15b100;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0b5017;
+  background-color:#15b100;
   color: #fff;
 }
 
