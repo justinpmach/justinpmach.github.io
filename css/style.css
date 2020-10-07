@@ -139,9 +139,13 @@ a:hover {
 /*--/ Title s /--*/
 
 .title-s {
-  font-weight: 600;
-  color: #008d23;
-  font-size: 1.1rem;
+  font-weight: 400;
+  color: #15b100;
+  font-size: 1.3rem;
+}
+.title-s-1 {
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 /*--/ Title A /--*/
@@ -208,30 +212,34 @@ a:hover {
 /*------/ Socials /------*/
 
 .socials {
-  padding: 1.5rem 0;
+  padding-top: 1rem;
 }
-
-.socials ul li {
-  display: inline-block;
-  padding-left: 0.8rem;
-}
-
-.socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  color: #d1d1d1;
-  font-size: 1.7rem;
-  border-radius: 50%;
-  line-height: 1.7;
-  /* margin: 0 15px 0 0; */
-  box-shadow: 0 0 0 3px  #15b100;
-  transition: all 500ms ease;
-}
-
-.socials .ico-circle:hover {
-  background-color:  #15b100;
+.socials-links {
+  padding-left: 0.5rem;
   color: #fff;
+  /* font-size: 1rem; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.socials ul li, .socials ul li a{
+  padding-bottom: 0.9rem;
+  color:  #15b100;
+  font-size: 1.1rem;
+  /* margin: 0 15px 0 0; */
+}
+.socials ul li i{
+  color: rgb(25, 204, 2);
+  font-size: 1.2rem;
+}
+
+.socials ul li i:hover {
+  color:  #ffffff;
   transition: all 500ms ease;
+}
+.socials ul li :hover{
+  color:  #15b100;
+  transition: all 500ms ease;
+  /* margin: 0 15px 0 0; */
 }
 
 /*------/ Ul resect /------*/
@@ -253,7 +261,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #15b100;
+  color: #ffffff;
   margin-right: 10px;
 }
 
@@ -264,7 +272,7 @@ a:hover {
   width: 4rem;
   font-size: 2rem;
   border-radius: 50%;
-  line-height: 1.55;
+  line-height: 1.4;
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 0 0 10px  #15b100;
@@ -717,7 +725,7 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
-  border: solid 0.3rem #afafaf;
+  border: solid 0.2rem #afafaf;
 }
 
 .service-box:hover .ico-circle {
@@ -763,7 +771,7 @@ a:hover {
 }
 
 .counter-ico {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .counter-ico .ico-circle {
@@ -780,7 +788,7 @@ a:hover {
 }
 
 .counter-text{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 530;
   color: #ffffff;
 }
@@ -1116,7 +1124,7 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #15b100
+  color: #15b100;
   border: 1px solid #15b100;
   display: none;
   text-align: center;
@@ -1185,8 +1193,9 @@ footer .credits a {
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
-  font-size: 1.2rem;
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  float: right;
 }
 
 .button-rouded {

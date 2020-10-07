@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/mslogo.png" type="image/png" rel="shortcut icon">
+  <link href="img/jm_logo.png" type="image/png" rel="shortcut icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap CSS File -->
@@ -111,20 +111,18 @@
                     <!-- </div> -->
                   <div class="col-md-6">
                     <div class="about-info pt-2">
-                      <p><span class="title-s">Name: </span> <span>Justin Mach</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Full-Stack Developer</span></p>
-                      <p><span class="title-s">Email: </span> <span>justinpmach95@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(714) 883-8676</span></p>
+                      <p><span class="title-s">Name: </span> <span class="title-s-1">Justin Mach</span></p>
+                      <p><span class="title-s">Profile: </span> <span class="title-s-1">Full-Stack Developer</span></p>
+                      <p><span class="title-s">Email: </span> <span class="title-s-1">justinpmach95@gmail.com</span></p>
                     </div>
                     
                     <div class="row">
                       <div class="col-md-12">
-                        <!-- <p class="title-a" style="text-indent: 4%;">About Me</p> -->
-                        <div class="about-me p-4 rounded border border-success">
-                          <p class="lead" style="text-indent: 4%;">
-                            I'm a Full-Stack Developer based in Orange County, CA with a passion for building high quality web applications and designs. When I'm not coding, I spray paint cool art on canvas as a freelance stencil artist. You can find some of my artwork on Instagram @machstencil.
-                          </p>
-                        </div>
+                        <div class="about-me">
+                          <p><span class="title-s">Bio: </span> <span class="pl-1 title-s-1">
+                           I'm a Full-Stack Developer based in Orange County, CA with a passion for building high quality web applications and designs. When I'm not coding, I spray paint cool art on canvas as a freelance stencil artist. You can find some of my artwork on Instagram @machstencil.
+                          </span></p>
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -298,12 +296,12 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-ios-gear"></i></span>
+              <span class="ico-circle"><i class="ion-paintbucket"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Development Tools</h2>
+              <h2 class="s-title">Graphic Design</h2>
               <p class="s-description text-center">
-                AWS(EC2) <span class="text-white">|</span> Git <span class="text-white">|</span> GitHub <span class="text-white">|</span> NPM <span class="text-white">|</span> NGinx <span class="text-white">|</span> Postman <span class="text-white">|</span> Ubuntu <span class="text-white">|</span> VS Code <span class="text-white">|</span> Yarn
+                Adobe Photoshop <span class="text-white">|</span> Adobe Illustrator
               </p>
             </div>
           </div>
@@ -311,12 +309,12 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbucket"></i></span>
+              <span class="ico-circle"><i class="ion-wrench"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
+              <h2 class="s-title">Development Tools</h2>
               <p class="s-description text-center">
-                Adobe Photoshop <span class="text-white">|</span> Adobe Illustrator
+                AWS(EC2) <span class="text-white">|</span> Git <span class="text-white">|</span> GitHub <span class="text-white">|</span> NPM <span class="text-white">|</span> NGinx <span class="text-white">|</span> Postman <span class="text-white">|</span> Ubuntu <span class="text-white">|</span> VS Code <span class="text-white">|</span> Yarn
               </p>
             </div>
           </div>
@@ -726,106 +724,74 @@
             <div id="contact" class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Thanks for stopping by!
+                    </h5>
+                  </div>
+                  <div>
+                    <div id="contact">
+                      <div id="contact-form">
+                          <form action="https://formspree.io/f/xdopaewl" method="POST">
+                            <div class="row">
+                              <div class="col-md-10 mb-2">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+                              </div>
+                              <div class="col-md-10 mb-2">
+                                <div class="form-group">
+                                  <input type="email" class="form-control" name="_replyto" placeholder="Your Email"required>
+                                </div>
+                              </div>
+                              <div class="col-md-10 mb-2">
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                  </div>
+                              </div>
+                              <div class="col-md-10 mb-2">
+                                <div class="form-group">
+                                  <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                                </div>
+                              </div>
+                              <div class="col-md-10">
+                                <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                              </div>
+                            </div>
+                          </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-md-0">
                     <h5 class="title-left">
                       Want to get in touch?
                     </h5>
                   </div>
-                  <div class="more-info">
-                    <p class="lead">
-
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Orange County, CA</li>
-                      <li><span class="ion-ios-telephone"></span> (714) 883-8676</li>
-                      <li><span class="ion-email"></span> justinpmach95@gmail.com</li>
-                    </ul>
-                  </div>
                   <div class="socials">
-                    <ul>
-                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li> -->
-                      <li><a href="https://www.instagram.com/machstencil/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href="https://github.com/justinpmach"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/justinpmach/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                    </ul>
+                    <!-- <div class="col-md-2">
+                      <ul>
+                        <li class=""><span class=""><i class="ion-ios-location"></i></span></li>
+                        <li class=""><span class=""><i class="ion-ios-telephone"></i></span></li>
+                        <li class=""><span class=""><i class="ion-email"></i></span></li>
+                        <li><a href="https://www.instagram.com/machstencil/"><span class=""><i class="ion-social-instagram"></i></span></a></li>
+                        <li><a href="https://github.com/justinpmach"><span class=""><i class="ion-social-github"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/justinpmach/"><span class=""><i class="ion-social-linkedin"></i></span></a></li>
+                      </ul>
+                    </div> -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li><i class="ion-ios-location"></i><span class="socials-links"> Orange County, CA</span></li>
+                        <li><i class="ion-ios-telephone"></i><span class="socials-links"> (714) 883-8676</span></li>
+                        <li><i class="ion-email"></i><span class="socials-links"> justinpmach95@gmail.com</span></li>
+                        <li><a href="https://www.instagram.com/machstencil/"><i class="ion-social-instagram"></i><span class="socials-links"> Instagram</span></a></li>
+                        <li><a href="https://github.com/justinpmach"><i class="ion-social-github"></i><span class="socials-links"> Github</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/justinpmach/"><i class="ion-social-linkedin"></i><span class="socials-links"> LinkedIn</span></a></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                    <div class="col-md-6">
-                      <div class="title-box-2">
-                        <h5 class="title-left">
-                          Don't be a stranger!
-                        </h5>
-                      </div>
-                      <div>
-                        <div id="contact">
-                          <div id="contact-form">
-                              <form action="https://formspree.io/f/xdopaewl" method="POST">
-                                <div class="row">
-                                  <div class="col-md-12 mb-3">
-                                    <div class="form-group">
-                                      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-12 mb-3">
-                                    <div class="form-group">
-                                      <input type="email" class="form-control" name="_replyto" placeholder="Your Email"required>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-12 mb-3">
-                                      <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                      </div>
-                                  </div>
-                                  <div class="col-md-12 mb-3">
-                                    <div class="form-group">
-                                      <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-12">
-                                    <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                                  </div>
-                                </div>
-                              </form>
-                          </div>
-                        </div>
-
-                          <!-- <form action="" method="post" role="form" class="contactForm">
-                          <div id="sendmessage">Your message has been sent. Thank you!</div>
-                          <div id="errormessage"></div>
-
-                          <div class="row">
-                            <div class="col-md-12 mb-3">
-                              <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
-                              </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                              <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
-                              </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                                <div class="form-group">
-                                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                  <div class="validation"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                              <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                            </div>
-                          </div>
-
-                        </form> -->
-                      </div>
-                    </div>
 
                 
               </div>
