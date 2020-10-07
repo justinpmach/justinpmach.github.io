@@ -91,6 +91,30 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
+.bg-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/ny-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-image-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/services-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-image-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/port-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .overlay-mf {
   background-color: #001405;
@@ -109,6 +133,10 @@ a:hover {
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
+}
+.bg-mf {
+  position: relative;
+  /* padding: 8rem 0; */
 }
 
 .display-table {
