@@ -115,6 +115,12 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
+.bg-image-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/art-wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .overlay-mf {
   background-color: #001405;
@@ -926,7 +932,7 @@ a:hover {
 //--//-->   BLOG
 ======================================*/
 
-.card-blog .card-body {
+/* .card-blog .card-body {
   position: relative;
 }
 
@@ -974,8 +980,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  /* float: right; */
-}
+} */
 
 /*======================================
 //--//-->   BLOG-SINGLE
