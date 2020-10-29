@@ -844,7 +844,7 @@ a:hover {
 
 .work-img {
   width: 100%;
-  height: 18rem;
+  height: 17rem;
   display: block;
   overflow: hidden;
 }
@@ -854,12 +854,13 @@ a:hover {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 2% 1rem 3%;
+  /* height: 10rem; */
 }
 
 .work-content .w-more {
   color: #ffffff;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .work-content .w-more .w-ctegory {
