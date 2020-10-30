@@ -171,15 +171,18 @@ a:hover {
 }
 
 /*--/ Title s /--*/
-
-.title-s {
+.title-s-1 h6 span{
+  color: #319424;
+}
+.title-s{
   font-weight: 400;
   color: #15b100;
   font-size: 1.3rem;
 }
-.title-s-1 {
+.title-s-1, .title-s-1 h6 {
   font-weight: 400;
   font-size: 1.2rem;
+  color: #fff;
 }
 
 /*--/ Title A /--*/
@@ -224,7 +227,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-color: #15b100;
-  width: 100px;
+  width: 5rem;
   bottom: -12px;
 }
 
@@ -719,6 +722,10 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+.about-header h6{
+  color: white;
+  font-size: 1.5rem;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 2rem;
@@ -727,6 +734,9 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+}
+.about-img, .about-me{
+  box-shadow: 0.6rem 0.6rem #22411e;
 }
 
 /* .about-mf .about-img img {
